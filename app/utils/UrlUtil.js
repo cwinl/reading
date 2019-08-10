@@ -17,9 +17,9 @@
  */
 const getUrl = (url) => {
   if (url.indexOf('?') === -1) {
-    return `${url}?showapi_appid=85481&showapi_sign=8c715c0272e241bbbb54280a522334b2`;
+    return `${url}?showapi_appid=102285&showapi_sign=20014f00d8d445fda028aa18481da53f`;
   }
-  return `${url}&showapi_appid=85481&showapi_sign=8c715c0272e241bbbb54280a522334b2`;
+  return `${url}&showapi_appid=102285&showapi_sign=20014f00d8d445fda028aa18481da53f`;
 };
 
 export default getUrl;
